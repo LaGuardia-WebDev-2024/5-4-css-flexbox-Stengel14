@@ -4,36 +4,83 @@
     <meta charset="utf-8" />
     <title>Challenge: The boxer model</title>
     <style>
+      .book {
+        background-color: purple;
+        display: flex;
+        height: 240px;
+      }
+      
+      .item {
+        background-color: green;
+        width: 150px;
+      }
+      
+      .Cozy {
+        background-color: yellow;
+        display: flex;
+        height: 240px;
+        justify-content: center;
+      }
+      
+      .Sea {
+        background-color: pink;
+        width: 150px;
+      }
+      
+      .Mystery {
+        background-color: red;
+        display: flex;
+        height: 240px;
+        justify-content: right;
+      }
+      
+      .Dial {
+        background-color: blue;
+        width: 150px;
+      }
     </style>
   </head>
   <body>
     <h1>Cozy Reads</h1>
 
+    <div class="book">
       <img
         src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654581271i/61242426.jpg"
         width="200"
+           class="item"
       />
-      <p>
+      <p class="item">
         It’s not easy to build a coffee shop in a place that has never had
         coffee before. #CozyFantasy
       </p>
+    </div>
+    
+    <div class="Cozy">
+      
 
     <img
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1569514209i/45047384.jpg"
       width="200"
+         class="Sea"
     />
-    <p>
+    <p class="Sea">
       The main character must oversee an inspection of a house for magical
       children. #CozyFantasy
     </p>
-
+        </div>
+      
+    <div class="Mystery">
+      
     <img
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1601307658i/53310061.jpg"
       width="200"
+         class="Dial"
+      
     />
-    <p>
+    <p class="Dial">
       Who better to help cover up an accidental murder than overly protective
       aunties. #CozyMystery
     </p>
+      </div>
   </body>
 </html>
